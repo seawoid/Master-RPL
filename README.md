@@ -6,7 +6,8 @@
 對傳輸的需求，但隨著人們對封包傳輸率、無線感測器的壽命以及封包傳輸
 時間的需求增加，傳統 RPL 已不能滿足使用者的需求。由於在傳輸封包時，
 可能有一個至多個因素影響封包傳輸。為此，本文提出了基於 RPL 之多度
-量路由機制 M-RPL，該機制考慮預期傳輸數（Expected Transmission Count）、
+量路由機制 M-RPL(RPL-based Multi-metric Routing 
+Mechanism)，該機制考慮預期傳輸數（Expected Transmission Count）、
 殘餘電量（Residual Energy）和跳數（Hop Count）以及相對映的權重值來評
 估路徑上的因素，選擇可靠的路徑並有助於減少封包遺失、避免選擇低電量
 的無線感測器以及封包較慢達到目的端的情況發生，而產生的權重範圍表
